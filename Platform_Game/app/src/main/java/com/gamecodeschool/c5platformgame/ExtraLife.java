@@ -1,4 +1,4 @@
-package com.gamecodeschool.c5platformgame
+package com.gamecodeschool.c5platformgame;
 
 public class ExtraLife extends GameObject{
 
