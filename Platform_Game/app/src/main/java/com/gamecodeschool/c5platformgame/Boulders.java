@@ -30,6 +30,7 @@ public class Boulders extends GameObject {
         }
         //No hitbox!!
         //setRectHitbox();
+        
     }
 
     public void update(long fps, float gravity) {
