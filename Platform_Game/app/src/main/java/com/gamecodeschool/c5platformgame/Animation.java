@@ -15,13 +15,12 @@ public class Animation {
     private int frameWidth;
     private int frameHeight;
     int pixelsPerMetre;
-
+    
     Animation(Context context, String bitmapName, float frameHeight, float frameWidth,
               int animFps, int frameCount, int pixelsPerMetre){
 
         this.currentFrame = 0;
         this.frameCount = frameCount;
-
         this.frameWidth = (int)frameWidth * pixelsPerMetre;
         this.frameHeight = (int)frameHeight * pixelsPerMetre;
         sourceRect = new Rect(0, 0, this.frameWidth, this.frameHeight);
