@@ -9,7 +9,6 @@ public class GameActivity extends Activity {
 
     // Our object to handle the View
     private TDView gameView;
-
     // This is where the "Play" button from HomeActivity sends us
     @Override
     protected void onCreate(Bundle savedInstanceState) {
